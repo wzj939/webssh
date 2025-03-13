@@ -1,6 +1,6 @@
 FROM python:3-alpine
 
-LABEL maintainer='<author>'
+LABEL maintainer='venseco'
 LABEL version='0.0.0-dev.0-build.0'
 
 ADD . /code
