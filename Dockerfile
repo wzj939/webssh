@@ -15,4 +15,4 @@ RUN \
 
 EXPOSE 30007/tcp
 USER webssh
-CMD ["python", "run.py", "--xsrf=False --xheaders=False --origin='*' --debug --delay=6"]
+CMD ["python", "run.py"]
